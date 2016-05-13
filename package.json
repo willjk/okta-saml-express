@@ -1,0 +1,35 @@
+{
+  "name": "okta-saml-express",
+  "version": "1.0.0",
+  "description": "Quick setup for okta-saml-express sso integration",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "1.15.1",
+    "compression": "1.6.1",
+    "cookie-parser": "1.4.1",
+    "express": "^4.13.4",
+    "express-session": "1.13.0",
+    "morgan": "1.7.0",
+    "multer": "1.1.0",
+    "passport": "0.3.2",
+    "passport-saml": "0.15.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-bower-files": "0.2.7",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-html": "^1.0.5",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "main-bower-files": "2.11.1",
+    "run-sequence": "^1.1.5"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Will Knowles",
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+{
+	"auth": {
+    "entryPoint": "Identity Provider SSO url",
+		"cert": "YOUR CERT GOES HERE. REMOVE RETURN CARRIAGES"
+  }
+}

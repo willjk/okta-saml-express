@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle okta-saml-express@1.0.0~prestart: okta-saml-express@1.0.0
+6 silly lifecycle okta-saml-express@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle okta-saml-express@1.0.0~start: okta-saml-express@1.0.0
+8 verbose lifecycle okta-saml-express@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle okta-saml-express@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/wknowles/Desktop/projects/express-saml-okta/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle okta-saml-express@1.0.0~start: CWD: /Users/wknowles/Desktop/projects/express-saml-okta
+11 silly lifecycle okta-saml-express@1.0.0~start: Args: [ '-c', 'app.js' ]
+12 info lifecycle okta-saml-express@1.0.0~start: Failed to exec start script
+13 verbose stack Error: okta-saml-express@1.0.0 start: `app.js`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:818:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid okta-saml-express@1.0.0
+15 verbose cwd /Users/wknowles/Desktop/projects/express-saml-okta
+16 error Darwin 15.4.0
+17 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+18 error node v5.0.0
+19 error npm  v3.3.6
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error okta-saml-express@1.0.0 start: `app.js`
+24 error spawn ENOENT
+25 error Failed at the okta-saml-express@1.0.0 start script 'app.js'.
+25 error This is most likely a problem with the okta-saml-express package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     app.js
+25 error You can get their info via:
+25 error     npm owner ls okta-saml-express
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

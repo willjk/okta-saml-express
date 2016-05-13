@@ -14,6 +14,11 @@ I fast forward to 4:15 for Saml [Okta app video](https://support.okta.com/help/a
 npm install
 ```
 
+## Run
+
+```
+npm start
+```
 
 ## Okta SAML setup
 
